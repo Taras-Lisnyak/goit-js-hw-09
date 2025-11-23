@@ -79,9 +79,8 @@ const galleryMarkup = images
     })
     .join('');
 
-new SimpleLightbox('.some-element a', { /* options */ });
-galleryContainer.innerHTML = galleryMarkup;
 
+galleryContainer.innerHTML = galleryMarkup;
 const lightbox = new SimpleLightbox('.gallery a', { 
     captionsData: 'alt',
     captionDelay: 250,
